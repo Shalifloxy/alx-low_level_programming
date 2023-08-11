@@ -4,7 +4,8 @@
  * main - print the alphabets in lowercase letters, except for e and q
  *
  * Return: Always0 (Success)
- */int main(void)
+ */
+int main(void)
 {
 char letter;
 
