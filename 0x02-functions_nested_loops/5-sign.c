@@ -1,16 +1,26 @@
 #include "main.h"
 
 /**
- * _isalpha - function to check if c is a letter, uppercase or lowercase
- * @c: is the int that will be used for the argument of the function
- * Return: returns 1 and 0 depending on condition
+ * print_sign - function to check for a sign of a number
+ * @n: is the int that we'll use for the argument of the function
+ * Return: 0
  */
-int _isalpha(int c)
+int print_sign(int n)
 {
-	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
+	if (n > 0)
 	{
+		_putchar('+');
 		return (1);
 	}
+
+	else if (n < 0)
+	{
+		_putchar('-');
+		return (-1);
+	}
 	else
+	{
+		_putchar('0');
 		return (0);
+	}
 }
