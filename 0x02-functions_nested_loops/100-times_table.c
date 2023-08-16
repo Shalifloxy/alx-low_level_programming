@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-i#include "main.h"
-=======
 #include "main.h"
->>>>>>> 31426f2ba7c313ed438fa358b6fa22d3f83e2224
 
 /**
  * print_times_table - Prints the n times table
