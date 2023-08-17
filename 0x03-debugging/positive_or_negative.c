@@ -4,7 +4,7 @@
 (* 0 : is the number to be checked
  * Return: 0 on success
  */
-void positive or negative(int i)
+void positive_or_negative(int i)
 {
 	if (i < 0)
 {
@@ -13,7 +13,7 @@ void positive or negative(int i)
 }
 else if (i > 0)
 {
-	ptintf("%d is %s\n", i," positive");
+	printf("%d is %s\n", i, "positive");
 }
 else
 {
